@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://wwww.editalentranaroda.com.br/sitemap.xml
