@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/:slug((?!media|assets|tag|author|page|rss|feed|sitemap).*)/:category",
-      "destination": "/:slug",
-      "permanent": true
-    }
-  ]
-}
