@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Edital Entra Na Roda MIGRANDO</title>
+    <meta name="description" content="">
+    
+    
+    
+    <link rel="icon" href="/static/uploads/ico.JPG" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/static/uploads/ico.JPG">
+    
+
+    <link rel="stylesheet" href="/themes/gshow_pop/assets/css/style.css?v=1.1">
+    <!-- Bootstrap Icons (Usado internamente pelo CMS e para redes sociais) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Algumas lógicas do CMS dependem de classes Bootstrap puras (RaioX). Injetamos a versão ultra-leve do bootstrap apenas para os blocos do CMS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+<header class="gs-header">
+    <div class="gs-header__container">
+        <!-- Botão Menu Hamburguer -->
+        <button class="gs-header__menu-btn" id="gs-menu-toggle" aria-label="Abrir Menu">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Logo Centralizada -->
+        <a href="/" class="gs-header__logo">
+            
+                <img src="/static/uploads/ico.JPG" alt="Edital Entra Na Roda MIGRANDO">
+            
+        </a>
+    </div>
+
+    <!-- Identificador de Categoria Opcional (se não for a página inicial) -->
+    
+        <div class="gs-header__category-tag">Cursos</div>
+    
+</header>
+
+<!-- Overlay Escuro do Menu -->
+<div class="gs-overlay" id="gs-overlay"></div>
+
+<!-- Menu Oculto (Offcanvas) -->
+<nav class="gs-nav-offcanvas" id="gs-offcanvas">
+    <button class="gs-nav-offcanvas__close" id="gs-menu-close" aria-label="Fechar Menu">
+        <i class="bi bi-x-lg"></i>
+    </button>
+    <br><br>
+    
+        <a href="/">INÍCIO</a>
+        
+            <a href="/categoria/cursos/">Cursos</a>
+        
+            <a href="/categoria/dicas/">Dicas</a>
+        
+            <a href="/categoria/estrategia-de-marketing/">Estratégia de Marketing</a>
+        
+            <a href="/categoria/franquias/">Franquias</a>
+        
+            <a href="/categoria/historia/">História</a>
+        
+            <a href="/categoria/noticia/">Notícia</a>
+        
+            <a href="/categoria/oportunidades/">Oportunidades</a>
+        
+            <a href="/categoria/saude/">Saúde</a>
+        
+            <a href="/categoria/vendas/">Vendas</a>
+        
+    
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('gs-menu-toggle');
+        const closeBtn = document.getElementById('gs-menu-close');
+        const offcanvas = document.getElementById('gs-offcanvas');
+        const overlay = document.getElementById('gs-overlay');
+
+        function openMenu() {
+            offcanvas.classList.add('open');
+            overlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            offcanvas.classList.remove('open');
+            overlay.classList.remove('open');
+            document.body.style.overflow = 'auto';
+        }
+
+        if (toggleBtn) toggleBtn.addEventListener('click', openMenu);
+        if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+        if (overlay) overlay.addEventListener('click', closeMenu);
+    });
+</script>
+
+<main class="container">
+    <header style="margin-bottom: 3rem; text-align: center;">
+        <h1 class="page-title" style="border: none; padding: 0;">Cursos</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem;">Veja todas as notícias desta categoria.</p>
+    </header>
+
+    <div class="gs-grid">
+        
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-garantir-documentos-oficiais-para-negocios-em-alagoas/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-garantir-documentos-oficiais-para-negocios-em-alagoas.jpg" alt="Como garantir documentos oficiais para negócios em Alagoas" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como garantir documentos oficiais para negócios em Alagoas</h3>
+                    <div class="gs-card__meta">
+                        08/08/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-unir-plataformas-para-otimizar-seu-negocio-digital/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-unir-plataformas-para-otimizar-seu-negocio-digital.jpg" alt="Como unir plataformas para otimizar seu negócio digital" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como unir plataformas para otimizar seu negócio digital</h3>
+                    <div class="gs-card__meta">
+                        24/05/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-escolher-um-especialista-em-seo-para-impulsionar-seu-negocio/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-escolher-um-especialista-em-seo-para-impulsionar-seu-negocio.jpg" alt="Como escolher um especialista em SEO para impulsionar seu negócio" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como escolher um especialista em SEO para impulsionar seu negócio</h3>
+                    <div class="gs-card__meta">
+                        08/05/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-impulsionar-vendas-online-para-lojas-de-moveis-sob-medida/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-impulsionar-vendas-online-para-lojas-de-moveis-sob-medida.jpg" alt="Como impulsionar vendas online para lojas de móveis sob medida" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como impulsionar vendas online para lojas de móveis sob medida</h3>
+                    <div class="gs-card__meta">
+                        18/04/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-criar-iniciativas-tecnologicas-para-alavancar-seu-negocio-digital/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-criar-iniciativas-tecnologicas-para-alavancar-seu-negocio-digital.jpg" alt="Como criar iniciativas tecnológicas para alavancar seu negócio digital" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como criar iniciativas tecnológicas para alavancar seu negócio digital</h3>
+                    <div class="gs-card__meta">
+                        01/04/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-garantir-sua-vaga-em-estagios-2026-no-marketing-digital/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-garantir-sua-vaga-em-estagios-2026-no-marketing-digital.jpg" alt="Como garantir sua vaga em estágios 2026 no marketing digital" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como garantir sua vaga em estágios 2026 no marketing digital</h3>
+                    <div class="gs-card__meta">
+                        03/01/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/qual-curso-devo-fazer-para-me-tornar-um-corretor-de-seguros-o-roteiro-da-certificacao-e-a-carreira/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/casal-contra-a-construcao-de-casa_1398-51031.jpg" alt="Qual Curso Devo Fazer para me Tornar um Corretor de Seguros? O Roteiro da Certificação e a Carreira" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Qual Curso Devo Fazer para me Tornar um Corretor de Seguros? O Roteiro da Certificação e a Carreira</h3>
+                    <div class="gs-card__meta">
+                        30/11/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/concurso-publico-anulado-quais-os-direitos-dos-candidatos/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/concurso-publico-anulado-quais-os-direitos-dos-candidatos.jpg" alt="Concurso Público Anulado: Quais os Direitos dos Candidatos?" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Concurso Público Anulado: Quais os Direitos dos Candidatos?</h3>
+                    <div class="gs-card__meta">
+                        02/10/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/liberte-seu-potencial-curso-plr-para-afiliados-da-amazon-que-garante-resultados/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/curso-afiliado-amazon.jpg" alt="Liberte seu Potencial: Curso PLR para Afiliados da Amazon que Garante Resultados" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Liberte seu Potencial: Curso PLR para Afiliados da Amazon que Garante Resultados</h3>
+                    <div class="gs-card__meta">
+                        06/11/2024
+                    </div>
+                </a>
+            </article>
+            
+        
+    </div>
+
+    
+    <nav class="pagination">
+        
+        
+    </nav>
+    
+</main>
+
+<footer class="gs-footer">
+    <div class="container">
+        <div class="gs-footer__social">
+            
+            
+            
+            
+        </div>
+        
+        <ul class="gs-footer__menu">
+            
+        </ul>
+        
+        <div class="gs-footer__description" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-muted); font-size: 0.95rem; font-family: var(--font-ui);">
+            Seu portal de Empreendedorismo
+        </div>
+        
+        
+        <div class="gs-footer__copyright">
+            <p>@2026</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Carrossel nativo simplificado (substituto das chamadas de script originais caso tenha blocos CMS)
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.addEventListener('click', function(e) {
+            const btnPrev = e.target.closest('.btn-carousel-prev');
+            if (btnPrev) {
+                const wrapper = btnPrev.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft <= 5) { track.scrollTo({ left: track.scrollWidth, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+            const btnNext = e.target.closest('.btn-carousel-next');
+            if (btnNext) {
+                const wrapper = btnNext.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft + track.offsetWidth >= track.scrollWidth - 5) { track.scrollTo({ left: 0, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+        });
+    });
+</script>
+</body>
+</html>

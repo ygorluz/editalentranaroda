@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas - Edital Entra Na Roda MIGRANDO</title>
+    <meta name="description" content="">
+    
+    
+    
+    <link rel="icon" href="/static/uploads/ico.JPG" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/static/uploads/ico.JPG">
+    
+
+    <link rel="stylesheet" href="/themes/gshow_pop/assets/css/style.css?v=1.1">
+    <!-- Bootstrap Icons (Usado internamente pelo CMS e para redes sociais) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Algumas lógicas do CMS dependem de classes Bootstrap puras (RaioX). Injetamos a versão ultra-leve do bootstrap apenas para os blocos do CMS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+<header class="gs-header">
+    <div class="gs-header__container">
+        <!-- Botão Menu Hamburguer -->
+        <button class="gs-header__menu-btn" id="gs-menu-toggle" aria-label="Abrir Menu">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Logo Centralizada -->
+        <a href="/" class="gs-header__logo">
+            
+                <img src="/static/uploads/ico.JPG" alt="Edital Entra Na Roda MIGRANDO">
+            
+        </a>
+    </div>
+
+    <!-- Identificador de Categoria Opcional (se não for a página inicial) -->
+    
+        <div class="gs-header__category-tag">Vendas</div>
+    
+</header>
+
+<!-- Overlay Escuro do Menu -->
+<div class="gs-overlay" id="gs-overlay"></div>
+
+<!-- Menu Oculto (Offcanvas) -->
+<nav class="gs-nav-offcanvas" id="gs-offcanvas">
+    <button class="gs-nav-offcanvas__close" id="gs-menu-close" aria-label="Fechar Menu">
+        <i class="bi bi-x-lg"></i>
+    </button>
+    <br><br>
+    
+        <a href="/">INÍCIO</a>
+        
+            <a href="/categoria/cursos/">Cursos</a>
+        
+            <a href="/categoria/dicas/">Dicas</a>
+        
+            <a href="/categoria/estrategia-de-marketing/">Estratégia de Marketing</a>
+        
+            <a href="/categoria/franquias/">Franquias</a>
+        
+            <a href="/categoria/historia/">História</a>
+        
+            <a href="/categoria/noticia/">Notícia</a>
+        
+            <a href="/categoria/oportunidades/">Oportunidades</a>
+        
+            <a href="/categoria/saude/">Saúde</a>
+        
+            <a href="/categoria/vendas/">Vendas</a>
+        
+    
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('gs-menu-toggle');
+        const closeBtn = document.getElementById('gs-menu-close');
+        const offcanvas = document.getElementById('gs-offcanvas');
+        const overlay = document.getElementById('gs-overlay');
+
+        function openMenu() {
+            offcanvas.classList.add('open');
+            overlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            offcanvas.classList.remove('open');
+            overlay.classList.remove('open');
+            document.body.style.overflow = 'auto';
+        }
+
+        if (toggleBtn) toggleBtn.addEventListener('click', openMenu);
+        if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+        if (overlay) overlay.addEventListener('click', closeMenu);
+    });
+</script>
+
+<main class="container">
+    <header style="margin-bottom: 3rem; text-align: center;">
+        <h1 class="page-title" style="border: none; padding: 0;">Vendas</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem;">Veja todas as notícias desta categoria.</p>
+    </header>
+
+    <div class="gs-grid">
+        
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-escolher-o-melhor-plano-de-saude-corporativo-para-startups/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/como-escolher-o-melhor-plano-de-saude-corporativo-para-startups.jpg" alt="Como escolher o melhor plano de saúde corporativo para startups" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como escolher o melhor plano de saúde corporativo para startups</h3>
+                    <div class="gs-card__meta">
+                        05/10/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/estrategias-digitais-que-todo-consultorio-odontologico-deve-aplicar-hoje/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/estrategias-digitais-que-todo-consultorio-odontologico-deve-aplicar-hoje.jpg" alt="Estratégias digitais que todo consultório odontológico deve aplicar hoje" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Estratégias digitais que todo consultório odontológico deve aplicar hoje</h3>
+                    <div class="gs-card__meta">
+                        28/04/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/5-estrategias-para-impulsionar-seu-negocio-digital-em-braganca-paulista/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/5-estrategias-para-impulsionar-seu-negocio-digital-em-braganca-paulista.jpg" alt="5 estratégias para impulsionar seu negócio digital em Bragança Paulista" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">5 estratégias para impulsionar seu negócio digital em Bragança Paulista</h3>
+                    <div class="gs-card__meta">
+                        27/04/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/consorcio-imobiliario-ou-financiamento-qual-a-melhor-opcao/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/consorcio.jpg" alt="Consórcio Imobiliário ou Financiamento: Qual a Melhor Opção?" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Consórcio Imobiliário ou Financiamento: Qual a Melhor Opção?</h3>
+                    <div class="gs-card__meta">
+                        13/04/2026
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/empreender-no-setor-de-moveis-planejados-caminho-para-o-sucesso-sob-medida/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/renderizacao-de-cozinha-contemporanea-3d_1048-17748.avif" alt="Empreender no Setor de Móveis Planejados: Caminho para o Sucesso Sob Medida" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Empreender no Setor de Móveis Planejados: Caminho para o Sucesso Sob Medida</h3>
+                    <div class="gs-card__meta">
+                        29/07/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/agencia-de-marketing-em-atibaia-como-escolher-a-parceira-ideal-para-seu-negocio-crescer/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/Agencia-de-Marketing-em-Atibaia-1-1.jpg" alt="Agência de Marketing em Atibaia: Como Escolher a Parceira Ideal para Seu Negócio Crescer" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Agência de Marketing em Atibaia: Como Escolher a Parceira Ideal para Seu Negócio Crescer</h3>
+                    <div class="gs-card__meta">
+                        19/05/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-fazer-um-bom-anuncio-para-suplementos/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/Bom-Anuncio-para-Suplementos-1.jpg" alt="Como Fazer um Bom Anúncio para Suplementos?" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como Fazer um Bom Anúncio para Suplementos?</h3>
+                    <div class="gs-card__meta">
+                        10/05/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/como-encontrar-gontijo-passagens-promocionais-e-economizar-na-sua-viagem/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/Gontijo-passagens-promocionais.webp" alt="Como Encontrar Gontijo Passagens Promocionais e Economizar na Sua Viagem" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Como Encontrar Gontijo Passagens Promocionais e Economizar na Sua Viagem</h3>
+                    <div class="gs-card__meta">
+                        25/03/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/criacao-de-sites-em-abreu-e-lima-potencialize-sua-presenca-online/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/Criacao-de-Sites-em-Abreu-e-Lima-1.jpg" alt="Criação de Sites em Abreu e Lima: Potencialize Sua Presença Online" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Criação de Sites em Abreu e Lima: Potencialize Sua Presença Online</h3>
+                    <div class="gs-card__meta">
+                        10/01/2025
+                    </div>
+                </a>
+            </article>
+            
+            <article class="gs-card" style="grid-column: span 12; @media(min-width: 768px){ grid-column: span 4; }">
+                <a href="/corta-vento-masculino-estilo-e-protecao-para-todas-as-ocasioes/">
+                    <div class="gs-card__img-wrapper">
+                        
+                            <img src="/static/uploads/corta-vento-masculino-1.jpg" alt="Corta Vento Masculino: Estilo e Proteção para Todas as Ocasiões" loading="lazy">
+                        
+                    </div>
+                    <h3 class="gs-card__title">Corta Vento Masculino: Estilo e Proteção para Todas as Ocasiões</h3>
+                    <div class="gs-card__meta">
+                        07/01/2025
+                    </div>
+                </a>
+            </article>
+            
+        
+    </div>
+
+    
+    <nav class="pagination">
+        
+        
+            <a href="/categoria/vendas/page/2/">Próxima</a>
+        
+    </nav>
+    
+</main>
+
+<footer class="gs-footer">
+    <div class="container">
+        <div class="gs-footer__social">
+            
+            
+            
+            
+        </div>
+        
+        <ul class="gs-footer__menu">
+            
+        </ul>
+        
+        <div class="gs-footer__description" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-muted); font-size: 0.95rem; font-family: var(--font-ui);">
+            Seu portal de Empreendedorismo
+        </div>
+        
+        
+        <div class="gs-footer__copyright">
+            <p>@2026</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Carrossel nativo simplificado (substituto das chamadas de script originais caso tenha blocos CMS)
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.addEventListener('click', function(e) {
+            const btnPrev = e.target.closest('.btn-carousel-prev');
+            if (btnPrev) {
+                const wrapper = btnPrev.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft <= 5) { track.scrollTo({ left: track.scrollWidth, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+            const btnNext = e.target.closest('.btn-carousel-next');
+            if (btnNext) {
+                const wrapper = btnNext.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft + track.offsetWidth >= track.scrollWidth - 5) { track.scrollTo({ left: 0, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+        });
+    });
+</script>
+</body>
+</html>

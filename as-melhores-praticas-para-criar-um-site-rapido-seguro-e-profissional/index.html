@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As melhores práticas para criar um site rápido, seguro e profissional - Edital Entra Na Roda MIGRANDO</title>
+    <meta name="description" content="
+Você já entrou em um site que demorava tanto pra carregar que parecia estar puxando uma carroça virtual? Pois é. A gente sabe como isso incomoda. A verdade é q">
+    
+    
+    
+    <link rel="icon" href="/static/uploads/ico.JPG" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/static/uploads/ico.JPG">
+    
+
+    <link rel="stylesheet" href="/themes/gshow_pop/assets/css/style.css?v=1.1">
+    <!-- Bootstrap Icons (Usado internamente pelo CMS e para redes sociais) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Algumas lógicas do CMS dependem de classes Bootstrap puras (RaioX). Injetamos a versão ultra-leve do bootstrap apenas para os blocos do CMS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+<header class="gs-header">
+    <div class="gs-header__container">
+        <!-- Botão Menu Hamburguer -->
+        <button class="gs-header__menu-btn" id="gs-menu-toggle" aria-label="Abrir Menu">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Logo Centralizada -->
+        <a href="/" class="gs-header__logo">
+            
+                <img src="/static/uploads/ico.JPG" alt="Edital Entra Na Roda MIGRANDO">
+            
+        </a>
+    </div>
+
+    <!-- Identificador de Categoria Opcional (se não for a página inicial) -->
+    
+        <div class="gs-header__category-tag">Dicas</div>
+    
+</header>
+
+<!-- Overlay Escuro do Menu -->
+<div class="gs-overlay" id="gs-overlay"></div>
+
+<!-- Menu Oculto (Offcanvas) -->
+<nav class="gs-nav-offcanvas" id="gs-offcanvas">
+    <button class="gs-nav-offcanvas__close" id="gs-menu-close" aria-label="Fechar Menu">
+        <i class="bi bi-x-lg"></i>
+    </button>
+    <br><br>
+    
+        <a href="/">INÍCIO</a>
+        
+            <a href="/categoria/cursos/">Cursos</a>
+        
+            <a href="/categoria/dicas/">Dicas</a>
+        
+            <a href="/categoria/estrategia-de-marketing/">Estratégia de Marketing</a>
+        
+            <a href="/categoria/franquias/">Franquias</a>
+        
+            <a href="/categoria/historia/">História</a>
+        
+            <a href="/categoria/noticia/">Notícia</a>
+        
+            <a href="/categoria/oportunidades/">Oportunidades</a>
+        
+            <a href="/categoria/saude/">Saúde</a>
+        
+            <a href="/categoria/vendas/">Vendas</a>
+        
+    
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('gs-menu-toggle');
+        const closeBtn = document.getElementById('gs-menu-close');
+        const offcanvas = document.getElementById('gs-offcanvas');
+        const overlay = document.getElementById('gs-overlay');
+
+        function openMenu() {
+            offcanvas.classList.add('open');
+            overlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            offcanvas.classList.remove('open');
+            overlay.classList.remove('open');
+            document.body.style.overflow = 'auto';
+        }
+
+        if (toggleBtn) toggleBtn.addEventListener('click', openMenu);
+        if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+        if (overlay) overlay.addEventListener('click', closeMenu);
+    });
+</script>
+
+<main class="container" style="padding-top: 3rem;">
+    <article>
+        <header class="post-header">
+            
+                <div style="font-weight: 800; text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 1px;">
+                    <a href="/categoria/dicas/" style="color: var(--accent-color);">Dicas</a>
+                </div>
+            
+            
+            <h1 class="post-title">As melhores práticas para criar um site rápido, seguro e profissional</h1>
+            
+            
+                <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 800px; margin: 0 auto 2rem; line-height: 1.5;">
+Você já entrou em um site que demorava tanto pra carregar que parecia estar puxando uma carroça virtual? Pois é. A gente sabe como isso incomoda. A verdade é q</p>
+            
+
+            <div class="post-meta" style="margin-top: 1rem; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 1rem 0; max-width: 760px; margin-left: auto; margin-right: auto;">
+                
+                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                        
+                            <i class="bi bi-person-circle" style="font-size: 2rem; color: var(--text-muted);"></i>
+                        
+                        <span style="font-weight: 700; color: var(--text-main);">Por <a href="/autor/jose-silva/" style="color: var(--accent-color);">José Silva</a></span>
+                    </div>
+                
+                <time datetime="2026-01-23" style="margin-left: auto;">
+                    23/01/2026 08:11
+                </time>
+            </div>
+        </header>
+
+        
+            <figure class="post-featured-image">
+                <img src="/static/uploads/sites.jpg" alt="As melhores práticas para criar um site rápido, seguro e profissional">
+            </figure>
+        
+
+        
+
+        <div class="post-content">
+            <p><!-- wp:paragraph --></p>
+<p>Você já entrou em um site que demorava tanto pra carregar que parecia estar puxando uma carroça virtual? Pois é. A gente sabe como isso incomoda. A verdade é que, hoje, ninguém tem tempo — e muito menos paciência — pra páginas lentas, confusas ou inseguras.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E, sinceramente, dá pra perceber quando um site foi criado às pressas, sem carinho, sem visão e sem aquele toque de profissionalismo que inspira confiança. É justamente por isso que construir um site rápido, seguro e com aparência profissional deixou de ser um diferencial: virou requisito básico.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E, curiosamente, é aí que mora o charme da coisa. Porque quando você entende o que faz um site funcionar bem de verdade, fica até mais simples criar algo que as pessoas querem usar. Então, vamos conversar sobre isso de um jeito direto, pé no chão e sem complicação.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">O que realmente faz um site ser rápido? (E por que isso importa tanto)</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:image {"id":2177,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img class="wp-image-2177" src="/static/uploads/sites-1024x576.jpg" alt=""></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Velocidade não é só questão técnica — é questão de respeito. Quando um site abre rápido, o visitante sente que você se importa com o tempo dele. E, sendo bem honesto, essa sensação muda tudo. Em nível técnico, claro, existem detalhes como compressão de imagens, minificação de arquivos, cache inteligente, servidor otimizado e outras miudezas que parecem papo de devs radicais tomando café às 3 da manhã. Mas, na prática, a ideia é simples: deixar só o que precisa, do jeito mais leve possível.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Quer saber? Até ferramentas como PageSpeed Insights, GTmetrix e WebPageTest viraram quase um "check-up" digital. Elas não resolvem tudo, mas dão aquela pista inicial do que está travando a corrida do seu site. E é curioso como pequenas ações — ajustar o tamanho de uma imagem, trocar um plugin pesado, ativar um CDN — podem virar salvadoras.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E antes que pareça papo exagerado: sim, alguns milissegundos fazem diferença. Pense numa fila de padaria. Se o atendente demora um pouquinho para pegar o pão, ninguém reclama. Mas se ele demora a cada passo… pronto, vira tumulto. Na web, funciona igual.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Design profissional: muito além de “ficar bonito”</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Um site pode até ter animações modernas, fotos lindas e um estilo cheio de personalidade; mas, se isso atrapalha o uso, vira mais problema do que solução. O tal do “design profissional” não é só estética — é estratégia. Um bom layout direciona o olhar, resolve dúvidas antes que elas surjam, cria caminhos intuitivos para o usuário.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E tem algo interessante aqui: design profissional também envolve emoção. Às vezes, um botão bem posicionado salva a vida de quem não gosta de perder tempo procurando o que quer. Às vezes, uma tipografia mais suave deixa tudo com um ar mais acolhedor. E, na maior parte das vezes, o visitante nem percebe por que o site é agradável… ele só sente.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Falando nisso, vale citar um ponto curioso: muita gente acha que um site cheio de elementos sofisticados parece mais profissional. Mas, sabe de uma coisa? Muitas marcas de alto padrão usam minimalismo. Espaço em branco não é falta de conteúdo. É estratégia, é prioridade visual — quase como um suspiro digital necessário.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Algumas práticas que fazem diferença no design</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Tipografia legível com tamanho confortável</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Contraste adequado entre texto e fundo</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Navegação clara — menus sem labirintos</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Hierarquia visual bem definida (títulos, subtítulos, respiros)</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Botões que parecem botões — nada que confunda o usuário</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Essas coisas parecem básicas, e são mesmo. Só que quando alguém deixa de lado o básico, tudo desanda.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Segurança digital: o pilar invisível que sustenta a confiança</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Segurança é aquele tipo de assunto que ninguém quer lembrar, mas todo mundo espera que funcione. Quando você visita um site e vê aquele cadeadinho no navegador, o famoso SSL, já dá um alívio. “Ok, aqui eu posso confiar”. Mas segurança não se restringe a criptografia. Existem diversas camadas funcionando nos bastidores.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Falamos de proteção contra invasões, atualizações constantes, backups bem configurados, firewall, prevenção de ataques de força bruta, certificados atualizados, monitoramento e por aí vai. Parece muito? É mesmo. Mas todo dia surge uma brecha nova, um método novo de ataque, um descuido que abre a porta para problemas sérios.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>É por isso que tanta empresa investe em serviços gerenciados, como Cloudflare, Sucuri ou firewalls de aplicações. O curioso é que, em muitos casos, a segurança não aparece — não gera aplausos. Só gera silêncio. Quietude. E isso é sinal de que ela está funcionando.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Uma dica que parece óbvia, mas vive sendo ignorada: atualizações. Plugins antigos, temas abandonados e servidores desatualizados são convites abertos para ataques. E, sinceramente, dá trabalho? Dá. Mas vale a pena comparar isso com o caos que é recuperar um site comprometido.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conteúdo inteligente: o que faz o visitante ficar</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Velocidade e segurança atraem; design impressiona; mas é o conteúdo que mantém o visitante por perto. Quando falamos de conteúdo inteligente, não estamos falando apenas de SEO. Isso faz parte, claro, mas conteúdo realmente bom tem personalidade, ritmo, intenção. Ele conversa com o leitor.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E aqui entra uma reflexão simples: por que alguém ficaria no seu site? Pode ser pela solução que você oferece, pela clareza com que explica um assunto, pelo valor que entrega gratuitamente ou pela sensação de que “essa marca entende o que estou passando”. O conteúdo cria conexão — e conexão é difícil de copiar.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Frases curtas ajudam, mas frases longas e mais densas também têm o seu lugar quando construídas com cuidado. A arte está no equilíbrio, como em quase tudo na vida.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E já que estamos nesse papo, vale fazer uma ponte com outro ponto essencial: organização do conteúdo. Não adianta ter textos incríveis se eles estão distribuídos em blocos confusos. O uso de subtítulos, parágrafos bem espaçados, listas curtas e termos explicados com naturalidade faz toda a diferença. Afinal, ninguém quer sentir que está lendo um manual técnico dos anos 90.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">O impacto da tecnologia certa nos bastidores</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Muita gente só pensa na superfície do site — imagens, textos, cores. Mas existe um universo subterrâneo que define se o site vai funcionar como prometido. Tecnologias como HTML5, CSS moderno, frameworks JavaScript bem estruturados, servidores otimizados, bancos de dados compactados e sistemas de cache robustos fazem parte desse jogo.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Aqui está a questão: nem toda novidade tecnológica vale a pena. Em alguns momentos, aquela ferramenta supermoderna traz uma complexidade desnecessária. Em outros, um recurso clássico e confiável resolve o problema de forma mais simples. É como escolher entre um carro elétrico e uma bicicleta — depende da estrada.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Aliás, quando falamos de performance e segurança, infraestrutura pesa muito. Hospedagens profissionais como Hostinger Business, Cloudways, AWS Lightsail ou até servidores dedicados podem elevar o nível do seu site sem esforço. Já viu aquele site que abre tão rápido que parece que já estava carregado antes mesmo de você clicar? Geralmente é hospedagem melhor.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Profissionalismo digital começa com processos claros</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Curiosamente, a parte mais ignorada na construção de um site é o processo. Sem um processo claro — planejamento, prototipagem, design, desenvolvimento, testes, ajustes e lançamento — tudo vira uma bagunça. Quem já tentou criar um site sem roteiro sabe exatamente do que estou falando.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E não precisa ser nada burocrático. Uma simples lista de etapas já faz milagres. Não é raro encontrar projetos que poderiam ter sido concluídos em poucas semanas, mas que acabam levando meses por causa de decisões que mudam toda hora. Nem sempre isso é culpa de alguém. Às vezes, a visão ainda não estava clara.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>A parte boa? Quando existe método, tudo flui. Cada etapa conversa com a anterior, e o resultado final parece mais natural, mais redondo — quase como uma trilha bem sinalizada.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Como a experiência do usuário costura tudo isso</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Se tem um termo que ficou popular nos últimos anos é “experiência do usuário”, ou UX. E, apesar de parecer algo distante, é simplesmente a forma como o usuário se sente enquanto navega. O curioso é que UX não tem nada a ver apenas com botões bonitos. É mais sobre facilitar a vida das pessoas, reduzir atritos, antecipar necessidades.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Quer um exemplo simples? Formulários. Nada espanta mais usuários do que formulários exagerados, longos, cheios de campos estranhos. UX bem feita pede objetividade. Se algo não acrescenta, sai. Simples assim.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>E quando juntamos tudo — velocidade, segurança, design, conteúdo, tecnologia — a experiência do usuário vira a costura final que mantém tudo firme. Um site pode não ser perfeito em todas as áreas, mas se entrega uma experiência intuitiva, agradável e segura, já está à frente de muitos.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">O momento de investir em profissionalização</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Nem todo projeto precisa ser gigantesco. Nem toda empresa precisa de um site cheio de integrações ou automações complexas. Mas todo negócio merece um site que funcione bem, que represente sua identidade e que passe confiança. E, às vezes, isso significa buscar soluções mais personalizadas — como no caso da <a href="https://www.tlgagenciadigital.com.br/blog-artigos/criacao-de-sites-personalizados/" target="_blank" rel="noreferrer noopener">criação de sites personalizados</a>, por exemplo.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Curiosamente, muitas pessoas só percebem o valor de um site profissional depois de perder clientes com um site fraco. É como tentar vender em uma loja mal iluminada — a vitrine diz muito antes mesmo de você abrir a boca.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Checklist rápido: o que um site moderno precisa ter</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Para facilitar, aqui está um resumo simples — quase um lembrete de bolso:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Carregamento rápido (menos de 3 segundos é o ideal)</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Design limpo, intuitivo e acessível</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Certificados de segurança e atualizações constantes</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Conteúdo claro, relevante e bem organizado</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Hospedagem de qualidade</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Processo estruturado e testes de qualidade</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<ul class="wp-block-list">
+<li style="list-style-type: none;">
+<ul class="wp-block-list">
+<li>Navegação sem atritos e responsividade impecável</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list-item --></p>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Parece muita coisa, mas quando você quebra em etapas, tudo fica mais leve.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusão: profissionalismo é experiência, não aparência</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>No fim, criar um site rápido, seguro e profissional não é sobre seguir uma fórmula exata — é sobre entender o que as pessoas precisam quando entram no seu espaço digital. É sobre criar uma sensação boa, uma navegação fluida, uma confiança imediata. E isso, além da parte técnica, envolve empatia.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Então, se você está pensando em atualizar seu site ou construir um do zero, pense em como quer que o visitante se sinta. Pense no ritmo, na clareza, na segurança. Pense no que você mesmo gostaria de encontrar. Essa é a base. Todo o resto é construção.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>No final das contas, um site bem feito é como uma boa conversa: natural, direta, acolhedora — e inesquecível pelo motivo certo.</p>
+<p><!-- /wp:paragraph --></p>
+        </div>
+
+        
+    </article>
+</main>
+
+<footer class="gs-footer">
+    <div class="container">
+        <div class="gs-footer__social">
+            
+            
+            
+            
+        </div>
+        
+        <ul class="gs-footer__menu">
+            
+        </ul>
+        
+        <div class="gs-footer__description" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-muted); font-size: 0.95rem; font-family: var(--font-ui);">
+            Seu portal de Empreendedorismo
+        </div>
+        
+        
+        <div class="gs-footer__copyright">
+            <p>@2026</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Carrossel nativo simplificado (substituto das chamadas de script originais caso tenha blocos CMS)
+    document.addEventListener('DOMContentLoaded', function() {
+        document.body.addEventListener('click', function(e) {
+            const btnPrev = e.target.closest('.btn-carousel-prev');
+            if (btnPrev) {
+                const wrapper = btnPrev.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft <= 5) { track.scrollTo({ left: track.scrollWidth, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+            const btnNext = e.target.closest('.btn-carousel-next');
+            if (btnNext) {
+                const wrapper = btnNext.closest('div[id^="carrossel-"]');
+                const track = wrapper.querySelector('.dsc-track');
+                const item = track.querySelector('.dsc-item');
+                if (track && item) {
+                    const scrollAmount = item.offsetWidth + 20;
+                    if (track.scrollLeft + track.offsetWidth >= track.scrollWidth - 5) { track.scrollTo({ left: 0, behavior: 'smooth' }); } 
+                    else { track.scrollBy({ left: scrollAmount, behavior: 'smooth' }); }
+                }
+                return;
+            }
+        });
+    });
+</script>
+</body>
+</html>
